@@ -1,4 +1,4 @@
-document.getElementById('studentForm').addEventListener('submit', function(e) {
+    document.getElementById('studentForm').addEventListener('submit', function(e) {
   e.preventDefault();
 
   const name = document.getElementById('fullName').value.trim();
@@ -19,4 +19,5 @@ document.getElementById('studentForm').addEventListener('submit', function(e) {
   }
 
   alert("Registration successful!");
+  document.getElementById('studentForm').reset();
 });
