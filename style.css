@@ -1,0 +1,123 @@
+
+    *{
+      
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      overflow-x: hidden;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+    }
+   
+  
+    .features {
+      padding: 40px 0;
+    }
+    .about-section {
+      padding: 60px 0;
+    }
+
+    .hero {
+      position: relative;
+      color: #000;
+    }
+    .carousel-inner img {
+      height: 500px;
+      object-fit: cover;
+      filter: brightness(0.4);
+      background-position: center center;
+      
+    }
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation-duration: 0ms;
+      text-align: left;
+      color: white;
+      z-index: 10;
+    }.stats-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.stats-box .icon {
+  background: red;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.stats-box .text h4 {
+  margin: 0;
+  font-weight: 700;
+  color: #000;
+}
+
+.stats-box .text p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+
+     .category-card {
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.75rem;
+    padding: 2rem 1.3rem;
+    cursor: pointer;
+     box-shadow: 0 .25rem .75rem rgba(134, 133, 133, 0.2);
+    background-color: whitesmoke;
+  
+  }
+
+
+
+  .category-card:hover {
+    background-color: #f8f9fa;
+    color: #0d6efd;
+    border: 1px solid #dee2e6;
+  }
+
+  .category-card:hover {
+    background-color: #0d6efd;
+    color: white;
+  }
+
+  .category-card i {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .category-title {
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .category-count {
+    font-size: 0.85rem;
+  }
+
+  .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* কোনো ল্যাগ যেন না থাকে */
+}
+
+/* Smooth effect (optional) */
+.dropdown-menu {
+  transition: all 0.3s ease;
+}

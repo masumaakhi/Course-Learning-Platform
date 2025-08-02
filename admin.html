@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edura - Online Education</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top bar -->
+  <div class="bg-dark text-white py-2 px-3 d-flex justify-content-between">
+    <div>
+      <small><i class="bi bi-telephone"></i> +8801571300265 | info@elesrn.com</small>
+    </div>
+    <div>
+      <small>Mon - Sat: 8:00 - 15:00 | Follow us: 
+        <i class="bi bi-facebook mx-1"></i>
+        <i class="bi bi-twitter mx-1"></i>
+        <i class="bi bi-instagram mx-1"></i>
+      </small>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">E-Learn</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse gap-3 fs-6" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="admin.html">Home</a></li>
+         <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="coursesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="coursesDropdown">
+                  <li><a class="dropdown-item" href="#">Design</a></li>
+                  <li><a class="dropdown-item" href="#">Development</a></li>
+                  <li><a class="dropdown-item" href="#">Marketing</a></li>
+                  <li><a class="dropdown-item" href="#">Business</a></li>
+                  <li><a class="dropdown-item" href="#">Programming</a></li>
+                </ul>
+              </li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+        <a href="registration.html" class="btn btn-outline-primary ms-3"> Register</a>
+        <a href="#" class="btn btn-outline-primary ms-3"> Login</a>
+        <a href="#" class="btn btn-primary ms-2">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+ <!-- Hero Section with Background Slider -->
+  <section class="hero">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+      <div class="carousel-inner" >
+        <div class="carousel-item active ">
+          <img src="image/banner2.png" class="d-block w-100" alt="Slide 1" />
+        </div>
+        <div class="carousel-item">
+          <img src="image/banner4.png" class="d-block w-100" alt="Slide 2" />
+        </div>
+        <div class="carousel-item">
+          <img src="image/banner1.png" class="d-block w-100" alt="Slide 3" />
+        </div>
+        <div class="carousel-item">
+          <img src="image/banner3.png" class="d-block w-100" alt="Slide 3" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Content Over Carousel -->
+    <div class="hero-content container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1 class="fw-bold text-white">Online Education <br> Feels Like Real Classroom</h1>
+          <p class="text-white">Get Certified • Gain Job-ready Skills • Great Life</p>
+          <a href="#" class="btn btn-primary m-1">Get Started</a>
+          <a href="#" class="btn btn-outline-light m-1">Our Courses</a>
+        <div class="row row-cols-1 row-cols-md-2 g-3 mt-4">
+  <div class="col">
+    <div class="stats-box h-100">
+      <div class="icon">
+        <i class="bi bi-person-video"></i>
+      </div>
+      <div class="text">
+        <h4>16500+</h4>
+        <p>Active Students</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="stats-box h-100">
+      <div class="icon">
+        <i class="bi bi-camera-video"></i>
+      </div>
+      <div class="text">
+        <h4>7500+</h4>
+        <p>Online Video Courses</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Features Section -->
+<section class="features bg-white text-center py-5">
+  <div class="container-fluid px-4">
+    <div class="row justify-content-center gy-3">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+        <div class="d-flex flex-row align-items-center gap-3 justify-content-center">
+          <div class="bg-primary text-white rounded-circle p-2">
+            <i class="bi bi-mortarboard fs-6"></i>
+          </div>
+          <p class="mb-0 small">20k+ Online Courses</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+        <div class="d-flex flex-row align-items-center gap-3 justify-content-center">
+          <div class="bg-primary text-white rounded-circle p-2">
+            <i class="bi bi-lock fs-6"></i>
+          </div>
+          <p class="mb-0 small">Lifetime Access</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+        <div class="d-flex flex-row align-items-center gap-3 justify-content-center">
+          <div class="bg-primary text-white rounded-circle p-2">
+            <i class="bi bi-cash-coin fs-6"></i>
+          </div>
+          <p class="mb-0 small">Value For Money</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+        <div class="d-flex flex-row align-items-center gap-3 justify-content-center">
+          <div class="bg-primary text-white rounded-circle p-2">
+            <i class="bi bi-headset fs-6"></i>
+          </div>
+          <p class="mb-0 small">Lifetime Support</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+        <div class="d-flex flex-row align-items-center gap-3 justify-content-center">
+          <div class="bg-primary text-white rounded-circle p-2">
+            <i class="bi bi-people fs-6"></i>
+          </div>
+          <p class="mb-0 small">Community Support</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about-section py-5">
+  <div class="container-fluid px-md-5 px-3">
+    <div class="row align-items-center gy-5 gx-lg-5">
+      
+      <!-- Image Section -->
+      <div class="col-lg-6 position-relative">
+        <img src="image/about.jpg" class="img-fluid rounded w-100" alt="Main Team" />
+        <span class="badge bg-primary position-absolute top-0 start-0 m-3">24+ Years Experience</span>
+        <img src="image/about1.jpg"
+          class="img-fluid rounded position-absolute border border-white shadow"
+          style="width: 45%; bottom: -30px; right: -30px;" alt="Overlay Team" />
+      </div>
+
+      <!-- Text Section -->
+      <div class="col-lg-6 ps-lg-5"  >
+        <p class="text-primary fw-semibold mb-2">
+          <i class="bi bi-info-circle me-1"></i> GET TO KNOW ABOUT US
+        </p>
+        <h2 class="fw-bold mb-3">Dive into our Online Courses <br> and Ignite Your Learning!</h2>
+        <p class="text-muted">Collaboratively simplify user-friendly networks. Coordinate effective methods of empowerment and pursue web-readiness after resource-rich applications.</p>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-check2-circle text-primary me-2"></i> Re-engineer value-added systems</li>
+          <li><i class="bi bi-check2-circle text-primary me-2"></i> Access 100k+ online courses</li>
+          <li><i class="bi bi-check2-circle text-primary me-2"></i> Learn in-demand skills top companies want</li>
+        </ul>
+        <a href="#" class="btn btn-primary mt-3">About More</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Popular Courses Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <p class="text-primary fw-semibold">POPULAR COURSES</p>
+      <h2 class="fw-bold">Our Popular Online Courses</h2>
+    </div>
+
+    
+<!-- Category Section -->
+<div class="container my-5">
+  <div class="row g-3">
+
+    <div class="col-md-3 col-sm-6">
+      <div class="category-card d-flex flex-row align-items-center gap-3 fs-3 text-center">
+        <i class="bi bi-bar-chart-fill"></i>
+        <div class="text-start">
+          <p class="category-title">Digital Marketing</p>
+        <p class="category-count">286 Courses</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="category-card d-flex flex-row align-items-center gap-3 fs-3 text-center">
+        <i class="bi bi-easel-fill"></i>
+        <div class="text-start">
+          <p class="category-title">UI/UX Design</p>
+        <p class="category-count">140 Courses</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="category-card d-flex flex-row align-items-center gap-3 fs-3 text-center">
+        <i class="bi bi-vector-pen"></i>
+        <div class="text-start">
+          <p class="category-title">Graphic Design</p>
+        <p class="category-count">245 Courses</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="category-card d-flex flex-row align-items-center gap-3 fs-3 text-center">
+        <i class="bi bi-laptop-fill"></i>
+        <div class="text-start">
+          <p class="category-title fs-4">Web Development</p>
+        <p class="category-count">286 Courses</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <!-- Course Card Section -->
+<section class="courses-section py-5">
+  <div class="container">
+    <div class="row">
+      <!-- Repeat this card block for each course -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="card h-100 shadow-lg background-white border-1">
+          <div class="position-relative rounded-5">
+            <img src="image/course1.jpg" class="card-img-top" alt="Course">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">04 WEEKS</span>
+          </div>
+          <div class="card-body bg-white p-4 rounded-5">
+            <div class="mb-2">
+              <span class="text-warning small">★★★★★</span>
+              <span class="text-muted small">(4.9)</span>
+            </div>
+            <h6 class="card-title fw-semibold">IT Statistics Data Science and Business Analysis</h6>
+            <ul class="list-inline text-muted small mb-2">
+              <li class="list-inline-item"><i class="bi bi-journal-text me-1"></i> 7 Lessons</li>
+              <li class="list-inline-item"><i class="bi bi-people me-1"></i> 30+ Students</li>
+              <li class="list-inline-item"><i class="bi bi-bar-chart me-1"></i> Beginner</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center gap-2">
+                <img src="image/avater1.jpg" alt="Kevin Perry" class="rounded-circle" width="24">
+                <span class="small">Kevin Perry</span>
+              </div>
+              <span class="text-danger fw-semibold small">FREE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <!-- Repeat this card block for each course -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="card h-100 shadow-lg background-white border-1">
+          <div class="position-relative">
+            <img src="image/course1.jpg" class="card-img-top" alt="Course">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">05 WEEKS</span>
+          </div>
+          <div class="card-body bg-white p-4 rounded-5">
+            <div class="mb-2">
+              <span class="text-warning small">★★★★★</span>
+              <span class="text-muted small">(4.9)</span>
+            </div>
+            <h6 class="card-title fw-semibold">IT Statistics Data Science and Business Analysis</h6>
+            <ul class="list-inline text-muted small mb-2">
+              <li class="list-inline-item"><i class="bi bi-journal-text me-1"></i> 7 Lessons</li>
+              <li class="list-inline-item"><i class="bi bi-people me-1"></i> 30+ Students</li>
+              <li class="list-inline-item"><i class="bi bi-bar-chart me-1"></i> Beginner</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center gap-2">
+                <img src="image/avater1.jpg" alt="Kevin Perry" class="rounded-circle" width="24">
+                <span class="small">Kevin Perry</span>
+              </div>
+              <span class="text-danger fw-semibold small">FREE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <!-- Repeat this card block for each course -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="card h-100 shadow-lg background-white border-1">
+          <div class="position-relative ">
+            <img src="image/course1.jpg" class="card-img-top" alt="Course">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">06 WEEKS</span>
+          </div>
+          <div class="card-body bg-white p-4 rounded-5">
+            <div class="mb-2">
+              <span class="text-warning small">★★★★★</span>
+              <span class="text-muted small">(4.9)</span>
+            </div>
+            <h6 class="card-title fw-semibold">IT Statistics Data Science and Business Analysis</h6>
+            <ul class="list-inline text-muted small mb-2">
+              <li class="list-inline-item"><i class="bi bi-journal-text me-1"></i> 8 Lessons</li>
+              <li class="list-inline-item"><i class="bi bi-people me-1"></i> 30+ Students</li>
+              <li class="list-inline-item"><i class="bi bi-bar-chart me-1"></i> Beginner</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center gap-2">
+                <img src="image/avater1.jpg" alt="Kevin Perry" class="rounded-circle" width="24">
+                <span class="small">Kevin Perry</span>
+              </div>
+              <span class="text-danger fw-semibold small">FREE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <!-- Repeat this card block for each course -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="card h-100 shadow-lg background-white rounded-4 border-1">
+          <div class="position-relative">
+            <img src="image/course1.jpg" class="card-img-top" alt="Course">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">07 WEEKS</span>
+          </div>
+          <div class="card-body bg-white p-4 rounded-5">
+            <div class="mb-2">
+              <span class="text-warning small">★★★★★</span>
+              <span class="text-muted small">(4.9)</span>
+            </div>
+            <h6 class="card-title fw-semibold">IT Statistics Data Science and Business Analysis</h6>
+            <ul class="list-inline text-muted small mb-2">
+              <li class="list-inline-item"><i class="bi bi-journal-text me-1"></i> 10 Lessons</li>
+              <li class="list-inline-item"><i class="bi bi-people me-1"></i> 50+ Students</li>
+              <li class="list-inline-item"><i class="bi bi-bar-chart me-1"></i> Advance</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center gap-2">
+                <img src="image/avater1.jpg" alt="Kevin Perry" class="rounded-circle" width="24">
+                <span class="small">Kevin Perry</span>
+              </div>
+              <span class="text-danger fw-semibold small">$10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-primary text-align-center" style="margin-left: 32rem;">See More Loading <i class="bi bi-arrow-right"></i></button>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class=" text-dark pt-5 pb-4 border-top mt-5">
+  <div class="container px-md-5">
+    <div class="row gy-4">
+      <div class="col-md-4">
+        <h5 class="text-uppercase mb-3 fw-bold">EDULEARN</h5>
+        <p class="small">Empowering learners worldwide with quality online education. Join thousands of students advancing their careers.</p>
+      </div>
+      <div class="col-md-2">
+        <h6 class="text-uppercase mb-3 fw-semibold">Company</h6>
+        <ul class="list-unstyled small">
+          <li><a href="#" class="text-decoration-none text-dark">About Us</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">Courses</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">Blog</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h6 class="text-uppercase mb-3 fw-semibold">Support</h6>
+        <ul class="list-unstyled small">
+          <li><a href="#" class="text-decoration-none text-dark">Help Center</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">Contact</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">FAQ</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">Terms</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h6 class="text-uppercase mb-3 fw-semibold">Newsletter</h6>
+        <form class="d-flex flex-column flex-sm-row gap-2">
+          <input type="email" class="form-control" placeholder="Your email" />
+          <button class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <hr class="border-secondary mt-4">
+    <div class="text-center small text-muted pb-2">&copy; 2025 EduLearn. All rights reserved.</div>
+  </div>
+</footer>
+
+
+<!-- Responsive behavior is ensured via Bootstrap classes like col-md-6, col-lg-3 -->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
