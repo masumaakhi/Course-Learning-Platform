@@ -23,3 +23,10 @@ EduLearn is a fully responsive and modern online education website developed usi
 You can use this project as a starter template for an eLearning website, or for practice in frontend web development.
 
 ## 📁 Folder Structure:
+   e-learing
+   -----image
+   -----index.html
+   -----README.md
+   -----regisjs.js
+   -----registration.html
+   -----style.css
